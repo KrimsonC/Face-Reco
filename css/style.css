@@ -1,0 +1,15 @@
+#wrapper {
+    width: 100%;
+    text-align: center;
+    top: 80px;
+}
+
+.face-box {
+    border: 2px solid red;
+    position: absolute;
+}
+
+#wrapper img {
+    float: right;
+    margin-right: 50px;
+}
