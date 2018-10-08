@@ -1,0 +1,23 @@
+{
+  "name": "face-detection-app",
+  "version": "1.0.0",
+  "description": "An electron face detection app for elderly people, which recognizes familian faces or family members",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaryp/Electron-face-detection.git"
+  },
+  "author": "Panos Karypiadis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pankaryp/Electron-face-detection/issues"
+  },
+  "homepage": "https://github.com/pankaryp/Electron-face-detection#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
