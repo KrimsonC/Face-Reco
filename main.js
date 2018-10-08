@@ -1,6 +1,3 @@
-// Require dependencies
-const express = require('express');
-const bodyParser = require('body-parser');
 // Electron Dependencies
 const {app, BrowserWindow} = require('electron');
 const path = require('path');
@@ -11,7 +8,7 @@ let win;
 
 function createWindow() {
     // Create the Browser Window
-    win = new BrowserWindow({width:800, height:600, icon:__dirname+'/assets/imgs/icon.png'});
+    win = new BrowserWindow({width:1400, height:900, icon:__dirname+'/assets/imgs/icon.png'});
 
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'assets/index.html'),
@@ -20,7 +17,7 @@ function createWindow() {
     }));
 
     // Open devtools
-    win.webContents.openDevTools();
+    //win.webContents.openDevTools();
 
     win.on('closed', () => {
         win = null;
