@@ -1,3 +1,4 @@
+/*Header Section*/
 .header {
     height: 80px;
     background-color: rgb(34, 34, 34);
@@ -13,28 +14,24 @@
         font-size: 20px;
     }
 
+/*Camer box section*/
 .camera-box {
     background-color: rgb(209, 209, 209);
     text-align: center;
 }
-    .camera-box .btn {
-        margin-top: 100px;
-        margin-right: 200px;
-    }
 
+/*====================================================*/
+/*Face image box*/
+/*Add a wrapper div around the image u want to detect*/
 #wrapper {
     height: 900px;
     width: 100%;
     text-align: center;
     top: 80px;
 }
-
+    
+/*Face detection border*/
 .face-box {
     border: 2px solid red;
     position: absolute;
-}
-
-#wrapper img {
-    float: right;
-    margin-right: 50px;
 }

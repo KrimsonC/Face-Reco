@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Face Detection - Home</title>
+        <title>Face Detection - Face</title>
 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,19 +21,16 @@
                 </ul>
             </div>
         </div>
-        
-        <div class="container-fluid camera-box">
-            <div class="container">
-                <video id="video" width="640" height="480" autoplay></video>
-                <button class="btn btn-primary" id="snap">Snap Photo</button>
-                <canvas id="canvas" width="640" height="480"></canvas>
-                <a id="download" download="face.png"><button class="btn btn-primary" type="button" onClick="download()">Download</button></a>
-            </div>
+
+        <div class="container" id="wrapper">
+            <img id="img" src="imgs/img.jpeg">
         </div>
+        
 
         <script>
             window.$ = window.jQuery = require('./js/jquery.min');
         </script>
-        <script src="js/camera-activation.js"></script>
+        <script src="js/jquery.facedetection.min.js"></script>
+        <script src="js/face-recognition.js"></script>
     </body>
 </html>
