@@ -8,16 +8,27 @@
         <title>Face Detection</title>
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
 
-        <div id="wrapper">
-            <video id="video" width="640" height="480" autoplay></video>
-            <button id="snap">Snap Photo</button>
-            <img id="img" src="imgs/img.jpeg">
-            <canvas id="canvas" width="640" height="480"></canvas>
-            
-            <a id="download" download="face.png"><button type="button" onClick="download()">Download</button></a>
+        <div class="container-fluid header">
+            <div class="container">
+                <ul>
+                    <li>Snap</li>
+                    <li>Face</li>
+                    <li>Collection</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container-fluid camera-box">
+            <div class="container" id="wrapper">
+                <video id="video" width="640" height="480" autoplay></video>
+                <button class="btn text-center" id="snap">Snap Photo</button>
+                <canvas id="canvas" width="640" height="480"></canvas>
+                <a  class="text-center" id="download" download="face.png"><button class="btn" type="button" onClick="download()">Download</button></a>
+            </div>
         </div>
 
         
