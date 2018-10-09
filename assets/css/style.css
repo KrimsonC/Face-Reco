@@ -56,6 +56,14 @@
     background-color: rgb(209, 209, 209);
     text-align: center;
 }
+    .camera-box video {
+        margin-top: 30px;
+        background-color: black;
+    }
+    .camera-box canvas {
+        background-color: orange;
+        margin-right: 15px;
+    }
 
 /*====================================================*/
 /*Face image box*/
@@ -70,5 +78,9 @@
 /*Face detection border*/
 .face-box {
     border: 2px solid red;
+    position: absolute;
+}
+.face-box-test {
+    border: 2px solid green;
     position: absolute;
 }

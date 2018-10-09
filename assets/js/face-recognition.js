@@ -4,7 +4,7 @@ $('#img').faceDetection({
         console.log(faces);
 
         //if (faces[0].confidence === -2.99391947 ) {
-        //    console.log('SUCESS');
+        //  console.log('SUCESS');
         //}
 
         $div = $("<div>", {"class": "face-box"});
