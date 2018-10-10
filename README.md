@@ -8,7 +8,7 @@ An Electron face detection and recognition app
 
 ### Contributing
 ---
-If something is unclear, wrong, or needs to be refactored, please let me know. Pull requests are always welcome. Please open an issue before submitting a pull request. 
+Pull requests are always welcome. Please open an issue before submitting a pull request. 
 
 ## License
 
