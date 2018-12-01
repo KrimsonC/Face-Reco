@@ -8,10 +8,10 @@ let win;
 
 function createWindow() {
     // Create the Browser Window
-    win = new BrowserWindow({width:1400, height:900, icon:__dirname+'/assets/imgs/icon.png'});
+    win = new BrowserWindow({width:1000, height:700, icon:__dirname+'/assets/img/icon.png'});
 
     win.loadURL(url.format({
-        pathname: path.join(__dirname, 'assets/index.html'),
+        pathname: path.join(__dirname, 'assets/app.html'),
         protocol:'file:',
         slashes:true
     }));

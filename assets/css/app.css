@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Top menu*/
+.topmenu {
+    height: 60px;
+    background: rgb(25,159,218);
+    background: linear-gradient(63deg, rgba(25,159,218,1) 0%, rgba(15,176,205,1) 35%, rgba(86,206,219,1) 100%);
+}
+    .topmenu i {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 23px;
+    }
+    .topmenu i:nth-of-type(1) {
+        margin-top: 17px;
+    }
+    .topmenu img {
+        margin-bottom: 9px;
+        margin-left: 25px;
+    }
+    .topmenu-title {
+        color: rgba(255, 255, 255, 0.8);
+        margin-left: 90px;
+        margin-top: -38px;
+    }
+    .topmenu-title h6 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .topmenu-title p {
+        font-size: 11px;
+    }
+    .topmenu i:nth-of-type(2) {
+        float: right;
+        margin-top: -45px;
+    }
+
+/*Top Section*/
+.topsection {
+    height: 50px;
+    background: rgb(40,45,65);
+}
+    .topsection i {
+        color:rgb(25,159,218);
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .topsection h6 {
+        color: rgba(255, 255, 255, 0.8);
+        margin-left: 30px;
+        margin-top: -22px;
+    }
+    .topsection p {
+        color: rgba(255, 255, 255, 0.8);
+        float: right;
+        font-size: 13px;
+        margin-top: -23px;
+    }
+
+/*Middle section (side menu & main section)*/
+.middlesection {
+    height: 531px;
+    padding: 0px;
+}
+
+/*Side menu*/
+.sidemenu {
+    height: 531px;
+    width: 80px;
+    background: rgb(40,45,65);
+    float: left;
+}
+    .sidemenu i {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .sidemenu-icon {
+        margin-bottom:20px;
+    }
+    .sidemenu-hover {
+        background-color: rgb(25,159,218);
+        padding-top: 20px;
+    }
+
+/*Main section*/
+.mainsection {
+    height: 531px;
+    width: 984px; 
+    background: rgb(51,57,72);
+    background: linear-gradient(54deg, rgba(51,57,72,1) 0%, rgba(85,93,121,1) 35%, rgba(114,122,145,1) 100%);
+    margin-right: 0;
+}
+    .mainsection h4 {
+        padding-top: 30px;
+    }
+    .mainsection span {
+        color: rgb(25,159,218);
+    }
+    .mainsection h4, .mainsection p {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .mainsection .row {
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+    .mainsection-icon {
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .mainsection-icon i {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .mainsection-hover {
+        border: none;
+        background: rgb(25,159,218);
+        background: linear-gradient(63deg, rgba(25,159,218,1) 0%, rgba(15,176,205,1) 35%, rgba(86,206,219,1) 100%);
+    }
+    
+    

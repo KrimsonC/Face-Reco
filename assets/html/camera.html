@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Camera</title>
+
+    </head>
+    <body>
+        
+        <div class="container-fluid camera-box">
+            <div class="container">
+                <video id="video" width="640" height="480" autoplay></video>
+                <button class="btn btn-primary" id="snap">Snap Photo</button>
+                <canvas id="canvas" width="640" height="480"></canvas>
+                <a id="download" download="face.png"><button class="btn btn-primary" type="button" onClick="download()">Download</button></a>
+            </div>
+        </div>
+
+        <script>
+            window.$ = window.jQuery = require('./js/jquery.min');
+        </script>
+
+        <script src="js/camera-activation.js"></script>
+        
+    </body>
+</html>
